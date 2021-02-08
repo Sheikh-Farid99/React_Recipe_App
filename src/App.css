@@ -1,0 +1,23 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header .input-group .form-control{
+  border-radius: none !important;
+}
+.header{
+  background-color: #1fa403;
+}
+.header .input-group input.form-control:focus{
+  box-shadow: none !important;
+}
+.header .input-group .input-group-text .btn{
+  border-radius: none !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+.header .input-group .input-group-text .btn:focus{
+  box-shadow: none !important;
+}
